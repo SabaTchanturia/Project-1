@@ -1,3 +1,46 @@
-body {
-    background-color: gold;
+.main-div {
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.div-mom {
+    display: flex;
+    justify-content: start;
+}
+
+
+.div-child {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 8px;
+    gap: 5px;
+    margin: 10px;
+}
+
+.div-Dad {
+    margin: 10px;   
+    display: flex;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+
+.head-1 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.nav-style-1 {
+    background-color: rgba(0, 0, 0, 0.781);
 }
