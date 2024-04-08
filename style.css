@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border-bottom: 1px solid black; */
+
 
   
  }
@@ -338,7 +338,6 @@
 
 .pop-p-4 {
   text-align: center;
-  /* font-family: "Tomorrow", sans-serif; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   color: #757d8a;
