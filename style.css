@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  /* border-bottom: 1px solid black; */
 
   
  }
@@ -302,7 +302,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 
@@ -313,7 +312,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 
@@ -338,6 +336,7 @@
 
 .pop-p-4 {
   text-align: center;
+  /* font-family: "Tomorrow", sans-serif; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   color: #757d8a;
@@ -445,3 +444,82 @@
   margin-top: 10px;
 }
 
+
+
+/* shop side ________________________________________________ */
+
+
+.shop-all-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 250px;
+  justify-content: center;
+  padding: 20px 20px 20px 3px ;
+  
+}
+
+
+.shop-div-Dad {
+  display: flex;
+  border: 1px solid red;
+}
+
+
+.class-for-shop-items {
+  display: flex;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.shop-price-text-1 {
+ 
+ font-size: 20px
+ 
+}
+
+
+
+.shop-input-1 {
+  padding: 8px;
+  width: 80px;
+  border: 1px solid black;
+  margin-top: 5px;
+  border-radius: 2px;
+  font-size: 15px
+}
+
+.shop-search-1 {
+  padding: 5px;
+  width: 180px;
+  font-size: 17px;
+  margin-top: 2px;
+  border: 1px solid black;
+ 
+}
+
+.shop-title-1 {
+  font-size: 18px;
+  margin: 3px;
+}
+
+.shop-button-1 {
+  width: 123px;
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4a4a4b;
+  color: whitesmoke;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+
+
+}
+
+.shop-button-1:hover {
+  background-color: red;
+  transition: all 0.5s;
+}
